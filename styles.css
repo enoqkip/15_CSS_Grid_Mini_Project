@@ -98,7 +98,9 @@ Main nav-bar
     max-width: 1170px;
     margin: 0 auto;
     display: grid;
+    align-content: center;
     grid-template-columns: repeat(4, 1fr);
+    font-size: 4rem;
   }
   .main-navbar a {
     text-align: center;
