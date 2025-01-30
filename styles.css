@@ -149,4 +149,8 @@ Hero
       url(./images/image-2.jpeg) center/cover fixed;
     padding: 0 3rem;
   }
+  .hero-banner {
+    /* background: blue; */
+    text-align: center;
+  }
 }
