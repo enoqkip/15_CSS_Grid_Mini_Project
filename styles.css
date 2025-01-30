@@ -140,7 +140,16 @@ Hero
 @media screen and (max-width: 600px) {
   .hero-banner {
     /* background: blue; */
+    text-align: center;
     padding: 0 3rem;
+    a {
+      background: var(--mainBlack);
+      color: var(--offWhite);
+      a:hover {
+        color: var(--offWhite);
+        background: var(--darkGray);
+      }
+    }
   }
 }
 @media screen and (min-width: 760px) {
