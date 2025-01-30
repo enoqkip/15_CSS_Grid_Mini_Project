@@ -100,7 +100,7 @@ Main nav-bar
     display: grid;
     align-content: center;
     grid-template-columns: repeat(4, 1fr);
-    font-size: 4rem;
+    font-size: 1.5rem;
   }
   .main-navbar a {
     text-align: center;
