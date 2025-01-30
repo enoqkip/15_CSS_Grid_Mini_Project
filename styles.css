@@ -163,3 +163,47 @@ Hero
     text-align: center;
   }
 }
+/* 
+============================================
+Cards
+============================================
+*/
+
+/*section denoted by red border*/
+.cards {
+  margin: 1rem;
+  padding: 4rem 0;
+  /* border: 3px solid red; */
+}
+
+.title {
+  text-align: center;
+}
+/* card center - denoted by green border,grid parent container for grid children */
+.cards-center {
+  width: 80vw;
+  max-width: 1170px;
+  margin: 2rem auto;
+  /* border: 4px solid green; */
+}
+.card {
+  border: 1px solid var(--darkGray);
+  margin-bottom: 2rem;
+  background: var(--offWhite);
+}
+
+.card-info {
+  padding: 1rem;
+}
+
+.card-footer {
+  background: var(--darkGray);
+  padding: 0.5rem 1rem;
+  /* margin-bottom: 3rem; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+.card-footer span {
+  color: var(--primaryColor);
+}
