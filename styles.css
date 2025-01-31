@@ -287,6 +287,12 @@ Tiles
       "a a a c"
       "d d d d"
       "e f f f"
-      "e g h 1";
+      "e g h i";
+  }
+  .title-1 {
+    grid-area: a;
+  }
+  .title-2 {
+    grid-area: b;
   }
 }
