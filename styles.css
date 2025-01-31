@@ -269,3 +269,10 @@ Tiles
     column-gap: 2rem;
   }
 }
+
+@media screen and (min-width: 992px) {
+  .tile-center {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+  }
+}
