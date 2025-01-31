@@ -221,9 +221,24 @@ Cards
   }
 } */
 
-/*(1170-64)/3= 368*/
+/* 
+=======================================================
+Three column layout - (1170-64)/3= 368
+Four column layout -  (1170-96)/4= 268.5
+=======================================================
+*/
+
+/* autofit = means spanning across when no other items available  */
+/* auto-fill = means not spanning across when other items are not available  */
 .cards-center {
+  /* Three colum layout
+  ========================
   display: grid;
   column-gap: 32px;
-  grid-template-columns: repeat(auto-fill, minmax(368px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(368px, 1fr)); */
+
+  /* four column layout  */
+  display: grid;
+  column-gap: 32px;
+  grid-template-columns: repeat(auto-fill, minmax(268px, 1fr));
 }
