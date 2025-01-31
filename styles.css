@@ -276,3 +276,17 @@ Tiles
     column-gap: 2rem;
   }
 }
+
+@media screen and (min-width: 1170px) {
+  .tile-center {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 200px);
+    column-gap: 2rem;
+    grid-template-areas:
+      "a a a b"
+      "a a a c"
+      "d d d d"
+      "e f f f"
+      "e g h 1";
+  }
+}
