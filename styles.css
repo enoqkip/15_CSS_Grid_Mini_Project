@@ -190,6 +190,9 @@ Cards
   border: 1px solid var(--darkGray);
   margin-bottom: 2rem;
   background: var(--offWhite);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
 }
 
 .card-info {
