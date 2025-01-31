@@ -208,7 +208,7 @@ Cards
   color: var(--primaryColor);
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .cards-center {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -219,4 +219,11 @@ Cards
   .cards-center {
     grid-template-columns: 1fr 1fr 1fr;
   }
+} */
+
+/*(1170-64)/3= 368*/
+.cards-center {
+  display: grid;
+  column-gap: 32px;
+  grid-template-columns: repeat(auto-fill, minmax(368px, 1fr));
 }
